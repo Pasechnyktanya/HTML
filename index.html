@@ -1,66 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CatPhoto</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatPhoto</title>
 </head>
+
 <body>
-    <h1>CatPhotoApp</h1>
-    <main>
-      <section>
-        <h2>Cat Photos</h2>
-        <!-- TODO: Add link to cat photos -->
-        <p>Click here to view more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>.</p>
-        <a href="https://freecatphotoapp.com"><img src="http://zelenvsit.cx.ua/wp-content/uploads/2019/07/lvm2-37571.png"></a>
-      </section>
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <figure>
-          <img src="https://www.koolinar.ru/all_image/ckeditor/5/5158/20_content.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-          <img src="http://images-on-off.com/images/41/sonnikkoshkiderutsyamezhdusoboyvosnevide-6ce60f58.jpg" alt="Five cats looking around a field.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
-        </figure>
-      </section>
-      <section>
-        <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <fieldset>
-            <legend>Is your cat an indoor or outdoor cat?</legend>
-            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
-            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
-          </fieldset>
-          <fieldset>
-            <legend>What's your cat's personality?</legend>
-            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
-            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
-            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
-          </fieldset>
-          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>
-        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
-      </p>
-    </footer>
-  </body>
+  <h1>CatPhotoApp</h1>
+  <main>
+    <section>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>Click here to view more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>.</p>
+      <a href="https://freecatphotoapp.com"><img
+          src="http://zelenvsit.cx.ua/wp-content/uploads/2019/07/lvm2-37571.png"></a>
+    </section>
+    <section>
+      <h3>Cat Lists</h3>
+      <div>
+        <h2>Vehicle</h2>
+    <p>A vehicle (from Latin: vehiculum <mark>[1]</mark>) is a machine that transports people or cargo.
+        Vehicles include wagons, bicycles, motor vehicles (motorcycles, cars, trucks, buses), railed vehicles (trains,
+        trams), watercraft (ships, boats), amphibious vehicles (screw-propelled vehicle, hovercraft), aircraft
+        (airplanes,
+        helicopters) and spacecraft.<mark>[2]</mark></p>
+    <p>Land vehicles are classified broadly by what is used to apply steering and drive forces against the ground:
+        wheeled, tracked, railed or skied. ISO 3833-1977 is the standard, also internationally used in legislation, for
+        road vehicles types, terms and definitions.<mark>[3]</mark></p>
+    <hr>
+    <p><strong>[1]</strong> - "vehicle, n.", OED Online, Oxford University Press, November 2010</p>
+    <p><strong>[2]</strong> - Halsey, William D. (Editorial Director): MacMillan Contemporary Dictionary, page 1106.
+        MacMillan Publishing, 1979. ISBN 0-02-080780-5</p>
+    <p><strong>[3]</strong> - ISO 3833:1977 Road vehicles - Types - Terms and definitions Webstore.anis.org</p>
+    <hr>
+      </div>
+      <h3>Things cats love:</h3>
+      <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+        <li>fish</li>
+        <li>mouse</li>
+        <li>attention</li>
+      </ul>
+      <figure>
+        <img src="https://www.koolinar.ru/all_image/ckeditor/5/5158/20_content.jpg"
+          alt="A slice of lasagna on a plate.">
+        <figcaption>Cats <em>love</em> lasagna.</figcaption>
+      </figure>
+      <h3>Top 3 things cats hate:</h3>
+      <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+        <li>water</li>
+        <li>cucumber</li>
+        <li>personal space</li>
+      </ol>
+      <figure>
+        <img src="http://images-on-off.com/images/41/sonnikkoshkiderutsyamezhdusoboyvosnevide-6ce60f58.jpg"
+          alt="Five cats looking around a field.">
+        <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+      </figure>
+    </section>
+    <div>
+      <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+                <th>Header 5</th>
+                <th>Header 6</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Line 1</td>
+                <td>23</td>
+                <td>24</td>
+                <td>40</td>
+                <td>25</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Line 2</td>
+                <td>23</td>
+                <td>24</td>
+                <td>40</td>
+                <td>25</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Line 3</td>
+                <td>23</td>
+                <td>24</td>
+                <td>40</td>
+                <td>25</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Line 4</td>
+                <td>23</td>
+                <td>24</td>
+                <td>40</td>
+                <td>25</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Line 5</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>25</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Line 6</td>
+                <td>23</td>
+                <td>24</td>
+                <td>40</td>
+                <td>25</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Line 7</td>
+                <td>23</td>
+                <td>24</td>
+                <td>23</td>
+                <td>25</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Line 8</td>
+                <td>23</td>
+                <td>24</td>
+                <td>40</td>
+                <td>25</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Line 9</td>
+                <td>23</td>
+                <td>24</td>
+                <td>40</td>
+                <td>25</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <section>
+      <h2>Cat Form</h2>
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <fieldset>
+          <legend>Is your cat an indoor or outdoor cat?</legend>
+          <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+          <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+        </fieldset>
+        <fieldset>
+          <legend>What's your cat's personality?</legend>
+          <input id="loving" type="checkbox" name="personality" value="loving" checked> <label
+            for="loving">Loving</label>
+          <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+          <input id="energetic" type="checkbox" name="personality" value="energetic"> <label
+            for="energetic">Energetic</label>
+        </fieldset>
+        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section>
+      <dl>
+        <dt>TAG</dt>
+        <dd>Consectetur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore rem blanditiis tenetur alias
+          tempora! Quo itaque facilis magnam enim ipsam corrupti neque! Ratione earum voluptates ut, aspernatur sed
+          dicta consectetur ipsa, similique pariatur cumque dolorem neque, veritatis quidem temporibus modi. Provident
+          corporis, numquam laudantium nam error voluptates veritatis repellat explicabo. aspernatur sapiente
+          laudantium! Blanditiis, nobis earum! Lorem ipsum dolor sit amet consectetur<span class="main-sup">[1]</span>
+          adipisicing elit. Facere quae
+          maxime, vitae placeat? Placeat eligendi sapiente
+          dolor<span class="main-sup">[2]</span> maxime dolorum nam enim.</dd>
+        <dt>ATRIBUTE</dt>
+        <dd>Impedit. Ipsa nostrum ea ullam veniam esse numquam sapiente dolor neque perspiciatis magni omnis amet cumque
+          corporis at illum consequuntur ad, rem tempora asperiores cum pariatur, nesciunt voluptatem. Ratione alias
+          cum impedit illo possimus eius veritatis deleniti reiciendis, quod provident tempora molestiae eos
+          aspernatur dolore aliquam ab sunt? Quasi maiores assumenda exercitationem impedit? Dolores nesciunt,
+          perspiciatis maxime itaque nam reprehenderit dolorum, delectus architecto natus quisquam eligendi nostrum,
+          reiciendis explicabo pariatur deleniti fugiat facere unde. Dolore ut rem eligendi amet repellat aliquid. sit
+          amet consectetur adipisicing elit. Quod saepe, sunt suscipit quisquam repudiandae quia
+          qui recusandae quo, a delectus dicta libero esse consequuntur aperiam officia eum odio expedita ali.</dd>
+        <dt>ELEMENT</dt>
+        <dd>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quidem beatae perspiciatis.
+          In unde dolores modi nulla excepturi? Earum repellat tempora error quia delectus a? Beatae obcaecati
+          repudiandae culpa blanditiis impedit aspernatur quae odio porro, minima est cumque iste nulla? sit amet
+          consectetur adipisicing elit. Non dolore quae voluptate fuga doloribus vero,
+          necessitatibus minima nobis. Molestiae delectus quibusdam saepe cupiditate maiores sunt nobis veniam facere.
+          Explicabo, maiores.</dd>
+      </dl>
+      </sectiom>
+  </main>
+  <footer>
+    <p>
+      No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+    </p>
+  </footer>
+</body>
+
 </html>
